@@ -4,7 +4,7 @@ from sqlalchemy import select, distinct
 from sqlalchemy.sql.functions import coalesce, count
 from datetime import datetime, timedelta, UTC
 import logging
-from anthill import models
+from pulsorch import models
 from typing import Sequence
 from uuid import UUID
 

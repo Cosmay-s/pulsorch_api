@@ -1,6 +1,6 @@
-from anthill.server import app
-from anthill.config import create_server_config
-from anthill.db import create_tables
+from pulsorch.server import app
+from pulsorch.config import create_server_config
+from pulsorch.db import create_tables
 
 
 def main():
