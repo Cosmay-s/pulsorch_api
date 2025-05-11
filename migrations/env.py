@@ -2,9 +2,9 @@ from logging.config import fileConfig
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
 from alembic import context
-from anthill.config import get_db_url
-from anthill.db import Base
-from anthill.models import *
+from pulsorch.config import get_db_url
+from pulsorch.db import Base
+from pulsorch.models import *
 import alembic_postgresql_enum
 
 

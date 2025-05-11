@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import select
 from datetime import datetime
 import logging
-from anthill import models
+from pulsorch import models
 
 
 logger = logging.getLogger(__name__)

@@ -2,7 +2,7 @@ from sqlalchemy.orm import Mapped, mapped_column
 from datetime import datetime, UTC
 from sqlalchemy import String, ForeignKey, Enum, UniqueConstraint
 from uuid import UUID
-from anthill.db import Base
+from pulsorch.db import Base
 import enum
 
 

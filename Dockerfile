@@ -10,7 +10,7 @@ RUN pip install uv==0.7.2 \
 
 COPY alembic.ini /app/
 COPY migrations /app/migrations
-COPY anthill /app/anthill
+COPY pulsorch /app/pulsorch
 
 
-CMD ["python", "-m", "anthill"]
+CMD ["python", "-m", "pulsorch"]

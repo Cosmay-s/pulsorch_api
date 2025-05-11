@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, Response
 import logging
-from anthill import db, schemas
-from anthill.repos import systems
+from pulsorch import db, schemas
+from pulsorch.repos import systems
 from datetime import datetime, UTC
 
 view = Blueprint('systems', __name__, url_prefix='/api/v1/admin/systems')

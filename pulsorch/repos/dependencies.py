@@ -2,7 +2,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 from datetime import datetime
 import logging
-from anthill import models
+from pulsorch import models
 
 
 logger = logging.getLogger(__name__)

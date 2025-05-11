@@ -1,5 +1,5 @@
 from datetime import datetime
-from anthill.models import RunStatus, ScheduledStatus
+from pulsorch.models import RunStatus, ScheduledStatus
 from pydantic import BaseModel, ConfigDict
 from uuid import UUID
 

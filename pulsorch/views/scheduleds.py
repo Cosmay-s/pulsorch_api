@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify, Response
 import logging
-from anthill import db, models, schemas
-from anthill.repos import scheduleds
+from pulsorch import db, models, schemas
+from pulsorch.repos import scheduleds
 from datetime import datetime, UTC
 
 view = Blueprint('scheduleds', __name__,

@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, sessionmaker
-from anthill import config
+from pulsorch import config
 
 
 engine = create_engine(config.get_db_url())

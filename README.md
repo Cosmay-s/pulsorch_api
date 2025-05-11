@@ -1,6 +1,6 @@
-# Anthil Project
+#  Pulses orchestra
 
-**Anthil**
+**pulsorch**
 
 ## Стек технологий
 
@@ -60,7 +60,7 @@
     - Настройте строку подключения в `alembic.ini`:
 
        ```python
-       from anthill.config import get_db_url
+       from pulsorch.config import get_db_url
        config.set_main_option("sqlalchemy.url", get_db_url())
        ```
 

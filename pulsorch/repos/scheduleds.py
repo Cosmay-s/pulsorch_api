@@ -2,7 +2,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 from datetime import datetime, UTC
 import logging
-from anthill.models import ScheduledStatus, ScheduledTask
+from pulsorch.models import ScheduledStatus, ScheduledTask
 from typing import Sequence
 from sqlalchemy import select, update
 

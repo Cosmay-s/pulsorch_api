@@ -1,6 +1,6 @@
 from flask import Flask
 import logging
-from anthill.views import runs, jobs, systems, dependence, scheduleds
+from pulsorch.views import runs, jobs, systems, dependence, scheduleds
 
 logging.basicConfig(
     level=logging.INFO,
